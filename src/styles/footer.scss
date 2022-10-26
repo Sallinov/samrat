@@ -1,0 +1,35 @@
+.footer {
+    padding: 12px 32px;
+    height: 62px;
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    font-size: 16px;
+    line-height: 22px;
+
+    &__link,
+    &__link-mail,
+    &__link-phone {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            margin-right: 8px;
+        }
+
+        & + .footer__link,
+        & + .footer__link-mail,
+        & + .footer__link-phone {
+
+            margin-left: 18px;
+        }
+    }
+
+    &__contasts,
+    &__social-media {
+        margin-right: 18px;
+        display: flex;
+    }
+}

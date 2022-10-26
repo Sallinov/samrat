@@ -1,0 +1,38 @@
+.contact {
+    @include default_content;
+
+    &__wrap {
+        border: solid 3px #29434E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        padding: 24px 32px;
+        text-align: center;
+    }
+
+    &__form,
+    &__text {
+        width: 50%;
+    }
+
+    &__form {
+        margin: -1px 0;
+        padding: 64px 32px;
+        background: #29434e;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        margin-bottom: 64px;
+        text-align: center;
+    }
+
+    &__form-btn {
+        margin-top: 52px;
+        align-self: center;
+    }
+}

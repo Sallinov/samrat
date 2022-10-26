@@ -1,0 +1,16 @@
+.field {
+    padding: 6px 12px;
+    color: #111;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+
+    & + .field {
+        margin-top: 32px;
+    }
+
+    &--textarea {
+        min-height: 160px;
+        resize: none;
+    }
+}

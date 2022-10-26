@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/styles.scss" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+    <!-- meta to social start -->
+    <meta property="og:title" content="A Basic HTML5 Template">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+    <meta property="og:description" content="A simple HTML5 Template for new projects.">
+    <meta property="og:image" content="src/images/apple-touch-icon.png">
+    <!-- meta to social end -->
+
+    <!-- favicon start -->
+    <link rel="icon" href="src/images/favicon.ico">
+    <link rel="icon" href="src/images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="src/images/apple-touch-icon.png">
+    <!-- favicon end -->
+</head>
+<body>
+    <h1 class="main-header">
+        Торгово промышленная компания samrat занимающаяся строительством нежилого фонда
+        и текстильной промышленностью
+    </h1>
+
+    <div class="subheader">
+        <div class="subheader__links">
+            <div class="subheader__contasts">
+                <a class="subheader__link-phone">
+                    <svg class="icon">
+                        <use href="src/images/sprite/phone.svg">
+                    </svg>
+                    +998 91-440-09-90
+                </a>
+                <a class="subheader__link-phone">
+                    <svg class="icon">
+                        <use href="src/images/sprite/phone.svg">
+                    </svg>
+                    +998 33-330-09-90
+                </a>
+                <a class="subheader__link-mail">
+                    <svg class="icon">
+                        <use href="src/images/sprite/mail.svg">
+                    </svg>
+                    info@petroimpex.uz
+                </a>
+            </div>
+            <div class="subheader__address">
+                <a class="subheader__link-location">
+                    <svg class="icon">
+                        <use href="src/images/sprite/location.svg">
+                    </svg>
+                    <div class="subheader__link-title">
+                        <div class="subheader__location-address">ул. Мустакиллик Шох, д.7</div>
+                        <div class="subheader__location-city">Ташкент, Узбекистан</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="subheader__logo">
+            <svg class="icon subheader__symbol">
+                <use href="src/images/sprite/logo.svg">
+            </svg>
+            <svg class="icon subheader__name">
+                <use href="src/images/sprite/amrat.svg">
+            </svg>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__anchor">
+            <a href="" class="btn btn--md">
+                Напишите нам
+            </a>
+        </div>
+        <nav class="header__nav">
+            <a class="header__link active" href="">О компании</a>
+            <a class="header__link" href="">Продукты</a>
+            <a class="header__link" href="">Ценности</a>
+            <a class="header__link" href="">Контакты</a>
+            <div class="header__language">
+                <a class="header__lang active">
+                    рус
+                </a>
+                <a class="header__lang">
+                    eng
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+             class="swiper js-main-baner-swiper"
+        >
+            <div class="parallax-bg"
+                style="background-image: url(https://wallpaperaccess.com/full/2621913.jpg)"
+                data-swiper-parallax="-23%"
+            >
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide__info" data-swiper-parallax="-900">
+                        <h2 class="swiper-slide__title h2" data-swiper-parallax="-1800">
+                            Торгово промышленная компания
+                        </h2>
+                        <h3 class="swiper-slide__subtitle h4" data-swiper-parallax="-1800">
+                            Какие виды деяельности у организации?
+                        </h3>
+                        <div class="swiper-slide__text" data-swiper-parallax="-1800">
+                            Восхитительный продукт высшего качества. Не верете сами - спросите у моей мамы и бабушки!
+                            Они точно вам расскажут о всех моих прелестях, а также может быть и о товаре. На самом
+                            деле восхищению нет предела, поскольку сам Владимир Владимирович оценил превосходство и
+                            использует нашу продукцию для поддержания штанов роскосмоса, конституция прошита нашими
+                            нитками, а костюм Дмитрия Анатольевича состоит на 50% из наших материалов (подкладка).
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__info" data-swiper-parallax="-900">
+                        <h2 class="swiper-slide__title h2" data-swiper-parallax="-1800">
+                            Строительство нежилого фонда
+                        </h2>
+                        <h3 class="swiper-slide__subtitle h4" data-swiper-parallax="-1800">
+                            Какой перечень оваров и услуг оказываем?
+                        </h3>
+                        <div class="swiper-slide__text" data-swiper-parallax="-1800">
+                            Восхитительный продукт высшего качества. Не верете сами - спросите у моей мамы и бабушки!
+                            Они точно вам расскажут о всех моих прелестях, а также может быть и о товаре. На самом
+                            деле восхищению нет предела, поскольку сам Владимир Владимирович оценил превосходство и
+                            использует нашу продукцию для поддержания штанов роскосмоса, конституция прошита нашими
+                            нитками, а костюм Дмитрия Анатольевича состоит на 50% из наших материалов (подкладка).
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__info" data-swiper-parallax="-900">
+                        <h2 class="swiper-slide__title h2" data-swiper-parallax="-1800">
+                            Текстильная промышленность
+                        </h2>
+                        <h3 class="swiper-slide__subtitle h4" data-swiper-parallax="-1800">
+                            Какой перечень оваров и услуг оказываем?
+                        </h3>
+                        <div class="swiper-slide__text" data-swiper-parallax="-1800">
+                            Восхитительный продукт высшего качества. Не верете сами - спросите у моей мамы и бабушки!
+                            Они точно вам расскажут о всех моих прелестях, а также может быть и о товаре. На самом
+                            деле восхищению нет предела, поскольку сам Владимир Владимирович оценил превосходство и
+                            использует нашу продукцию для поддержания штанов роскосмоса, конституция прошита нашими
+                            нитками, а костюм Дмитрия Анатольевича состоит на 50% из наших материалов (подкладка).
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="section section--gray about-us">
+        <div class="about-us__wrap">
+            <div class="about-us__text">
+                <h2 class="about-us__header h2">
+                    О компании
+                </h2>
+                <p>
+                    Опыт в сфере торговли и перевозок нефтепродуктов на рынке СНГ, объединили команду
+                    профессионалов способных дать ответ на запросы рынка Узбекистана.
+                    Получив лицензию на торговлю нефтепродуктов в ноябре 2019 года, компания начала
+                    свою активную деятельность.
+                </p>
+                <p>
+                    Нацеленность на сохранение исключительных принципов справедливости взаимоотношений,
+                    качества предлагаемых товаров и социальной ответственности ведут компанию к
+                    главной цели создания - стать основным поставщиком качественных импортных
+                    нефтепродуктов и горюче-смазочных материалов в Республике Узбекистан.
+                    С 2020 года, компания PETROIMPEX направила свои интересы в сторону IT технологий.
+                    Создав команду из высококвалифицированных IT специалистов и проведя глобальную
+                    информатизацию всех своих бизнес процессов, наша компания стала оказывать данный
+                    вид услуг другим компаниям.
+                </p>
+            </div>
+            <div class="about-us__gallery">
+                <div class="about-us__picture">
+                    <img src="src/images/about-us/construction.jpg" alt="construction">
+                </div>
+                <div class="about-us__picture">
+                    <img src="src/images/about-us/storage.jpg" alt="storage">
+                </div>
+                <div class="about-us__picture">
+                    <img src="src/images/about-us/delivery.jpg" alt="delivery">
+                </div>
+                <div class="about-us__picture">
+                    <img src="src/images/about-us/textile.jpg" alt="storage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section catalog">
+        <h2 class="catalog__header h2">
+            Предлогаемая продукция
+        </h2>
+        <div class="catalog__wrap">
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/threads.jpg" alt="threads">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Нити</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/building-materials.jpg" alt="building-materials">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Строй материалы</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/crane.jpg" alt="crane">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Краны</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/raw-materials.jpg" alt="raw-materials">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Производственное сырье</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/scaffolding.jpg" alt="scaffolding">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Строительные леса</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/equipment.jpg" alt="equipment">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Производственное оборудование</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/containers.jpg" alt="containers">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Контейнера</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+            <a class="catalog__card">
+                <div class="catalog__card-img">
+                    <img src="src/images/catalog/air-ducts.jpg" alt="air-ducts">
+                </div>
+                <div class="catalog__card-info">
+                    <h3 class="h5 catalog__card-header">Вентиляция</h3>
+                    <div class="btn btn--md">Подробнее</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="section section--gray worth">
+        <div class="worth__wrap">
+            <div class="worth__img">
+                <img src="src/images/worth/bonsai.jpg" alt="bonsai">
+            </div>
+            <div class="worth__text">
+                <h2 class="worth__header h2">
+                    Наши ценности
+                </h2>
+                <p class="worth__subheader">
+                    Фундаментальные убеждения, на которых базируется наша деятельность. Главные
+                    принципы, которые мы используем при взаимодействии с партнерами и клиентами.
+                </p>
+                <ul>
+                    <li>
+                        <h3 class="h5">Ответственность</h3>
+                        <p>
+                            Мы всецело ответственны за достижение поставленных задач, улучшение
+                            процессов и обеспечение эффективности работы.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="h5">Добросовестность</h3>
+                        <p>
+                            Правильные поступки, честность, откровенность с партнерами и законность
+                            взаимоотношений – ценность и принцип нашей компании которого мы
+                            придерживаемся в любом решении и действии.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="h5">Доверие</h3>
+                        <p>
+                            Мы уважаем коллег и партнеров и относимся к ним так, как хотим,
+                            чтобы относились к нам.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="h5">Стремление быть лучшими</h3>
+                        <p>
+                            Мы настроены быть первыми, хотим изменить мир к лучшему, стремимся
+                            совершенствоваться и успешно конкурировать на рынке.
+                            Мы будем лучшими!
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <div class="contact__wrap">
+            <div class="contact__text">
+                <h2 class="contact__header h2">Напишите нам</h2>
+                <p>
+                    Укажите Ваши контактные данные, интересующие вас вопросы и мы обязательно
+                    с Вами свяжемся!
+                </p>
+                <p>
+                    Нажимая на кнопку "Отправить", вы даете согласие на обработку персональных
+                    данных и соглашаетесь c политикой конфиденциальности
+                </p>
+            </div>
+            <form class="contact__form">
+                <input class="field" type="text" placeholder="Имя">
+                <input class="field" type="text" placeholder="Телефон">
+                <input class="field" type="email" placeholder="E-mail">
+                <textarea class="field field--textarea" placeholder="Интересующий вас вопрос"></textarea>
+                <button class="contact__form-btn btn btn--md btn--inverse">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contasts">
+            <a class="footer__link-phone">
+                <svg class="icon">
+                    <use href="src/images/sprite/phone.svg">
+                </svg>
+                +998 91-440-09-90
+            </a>
+            <a class="footer__link-phone">
+                <svg class="icon">
+                    <use href="src/images/sprite/phone.svg">
+                </svg>
+                +998 33-330-09-90
+            </a>
+            <a class="footer__link-mail">
+                <svg class="icon">
+                    <use href="src/images/sprite/mail.svg">
+                </svg>
+                info@petroimpex.uz
+            </a>
+        </div>
+        <div class="footer__social-media">
+            <a class="footer__link">
+                <svg class="icon">
+                    <use href="src/images/sprite/facebook.svg">
+                </svg>
+                facebook
+            </a>
+            <a class="footer__link">
+                <svg class="icon">
+                    <use href="src/images/sprite/telegram.svg">
+                </svg>
+                telegram
+            </a>
+        </div>
+    </footer>
+
+	<script type="module" src="src/index.js"></script>
+</body>
+</html>
